@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h3>div</h3>
+	<div style="background-color: red;">div 첫번째 영역</div>
+	<div style="background-color: blue;">
+		<span style="background-color: yellow">두번째안에</span>
+		<span style="background-color: green">span</span>
+		여기는 남은 div
+	</div>
+	<div>div 세번째 영역</div>
+	한 줄을 다 씀<br>
+	<h3>span</h3>
+	<span style="background-color: blue;">span 1</span>
+	<span>span 2</span>
+	<span>span 3</span>
+	<br>본인의 영역에만 한함
+	<hr>
+	
+	<h3>fieldset</h3>
+	<fieldset style="width: 300px;">
+		<legend>취미 조사</legend>
+		<input type="checkbox">게임
+		<input type="checkbox">소설
+		<input type="checkbox">그림
+	</fieldset>
+	<br>fieldset는 틀을 만들어줌
+	<hr>
+	<h3>textarea</h3>
+	<textarea rows="3" cols="50"></textarea>
+	<hr>
+	<h3>form</h3>
+	<form action="day02.html" method="get">
+		<input type="text" placeholder="input ID" name="id"><br>
+		<input type="password" placeholder="input PW" name="pw"><br>
+		<input type="submit" value="login"><br>
+		<input type="reset" value="cancel"><br>
+		form으로 묶여있어야 "submit,reset이 사용된다.
+		다음 페이지로 값을 넘겨주기 위한 것이 name이란 속성이다.<br>
+		<select name="select"> 
+			<option value="p1">바나나
+			<option value="p2">키위
+			<option value="p3">사과
+			<option value="p4">딸기
+		</select>
+		<br>name은 보여지는 것 값은 value
+	</form>
+	<hr>
+	<input type="radio" name="age">10대<br>
+	<input type="radio" name="age" checked>20대<br>
+	<input type="radio" name="age">30대<br>
+	<hr>
+	<input type="button" value="버튼"><br>
+	<input type="submit" value="서브밋"><br>
+	<input type="reset" value="취소"><br>
+	<input type="text" placeholder="텍스트"><br>
+	<input type="password" placeholder="비밀번호"><br>
+	<input type="radio">radio<br>
+	<input type="checkbox">checkbox<br>
+</body>
+</html>
